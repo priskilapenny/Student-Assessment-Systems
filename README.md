@@ -38,7 +38,8 @@ Key components included:
 
 **ERD Preview**
 
-<img width="1000" height="950" alt="ERD" src="https://github.com/user-attachments/assets/680d709d-c75c-46fd-8e74-6062c707c4b2" />
+<img width="1737" height="1649" alt="ERD" src="https://github.com/user-attachments/assets/a3a0b0ee-bb4a-4003-99e9-1a8f6b24b0a9" />
+
 
 _Note: The ERD and database documentation presented in this case study cover selected tables and relationships that represent the main system workflows. They do not include the entire database structure, as only relevant components have been selected for documentation purposes._
 
@@ -46,7 +47,7 @@ _Note: The ERD and database documentation presented in this case study cover sel
 
 Selected SQL queries demonstrate data retrieval, multi-table joins, data manipulation, and other operations required by the application.
 
-See the `sample-queries/` directory.
+See the [sample queries](sample-queries.sql).
 
 ## Backend Development
 
