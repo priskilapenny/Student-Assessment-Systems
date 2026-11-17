@@ -2,15 +2,15 @@
 
 ## 1. Retrieve Assessment Result
 
-**Endpoint:** `GET /nilai/mataKuliah`
+**Endpoint:** `GET /nilai/mataPelajaran`
 
-**Purpose:** Retrieve assessment result by mata kuliah
+**Purpose:** Retrieve assessment result by subjects
 
 **Body Parameters:**
 ````json
 {
     "angkatan_id": 7,
-    "matkul_id": [20],
+    "mapel_id": [20],
     "type_ujian_id": 5
 }
 ````
@@ -19,12 +19,12 @@
 ````json
 [
     {
-        "matkul_id": 20,
-        "mata_kuliah": "Sejarah",
+        "mapel_id": 20,
+        "mata_pelajaran": "Sejarah",
         "tingkat_id": 3,
         "tingkat": "Tingkat 3",
-        "semester_id": 6,
-        "semester": "Semester 6",
+        "semester_id": 2,
+        "semester": "Semester 2",
         "angkatan": "2023",
         "kelas_id": 1,
         "kelas": "Kelas A",
@@ -63,7 +63,7 @@
 
 **Endpoint:** `POST /siswa/upload`
 
-**Purpose:** Insert multiple data siswa
+**Purpose:** Insert multiple students data
 
 **Body Parameters:**
 ````json
@@ -102,7 +102,7 @@
 
 **Endpoint:** `POST /siswa/update`
 
-**Purpose:** Update data siswa
+**Purpose:** Update student data
 
 **Path Parameters:**
 
