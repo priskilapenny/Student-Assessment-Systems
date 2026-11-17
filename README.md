@@ -38,8 +38,7 @@ Key components included:
 
 **ERD Preview**
 
-<img width="850" height="650" alt="ERD" src="https://github.com/user-attachments/assets/3bd3415c-2f1d-4853-8ccc-3dda53acdc70" />
-
+<img width="1000" height="950" alt="ERD" src="https://github.com/user-attachments/assets/680d709d-c75c-46fd-8e74-6062c707c4b2" />
 
 _Note: The ERD and database documentation presented in this case study cover selected tables and relationships that represent the main system workflows. They do not include the entire database structure, as only relevant components have been selected for documentation purposes._
 
